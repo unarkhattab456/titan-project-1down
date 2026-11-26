@@ -6,7 +6,7 @@
 
 <br />
 
-<a href="https://USERNAME.github.io/REPO-NAME/">
+<a href="https://unarkhattab456.github.io/ https://unarkhattab456.github.io/titan-project-1down//">
   <img src="https://img.shields.io/badge/%F0%9F%9A%80%20LIVE%20DEMO-Click%20Here-ff0080?style=for-the-badge&labelColor=1a1a2e" alt="Live Demo" />
 </a>
 <a href="https://github.com/USERNAME/REPO-NAME">
@@ -35,7 +35,7 @@
 
 <div align="center">
 
-### 👉 [** https://unarkhattab456.github.io/titan-project-1down/) 👈
+### 👉 [https://unarkhattab456.github.io/titan-project-1down/) 👈
 
 </div>
 
