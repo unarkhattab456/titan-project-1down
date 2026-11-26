@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Saylani TITAN | Website</title>
+    <style>
+     body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+     background: linear-gradient(
+        135deg,
+        #f0fdf4,
+        #ffffff,
+        #ecfdf5
+    );
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.navber {
+    background-color: #0b8028;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.for {
+    display: inline-block;
+    color: #0A1F4D;
+    font-size: 40px;
+}
+
+nav>a {
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     margin-right: 7px;
+     font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: weight;
+     font-style: normal;
+}
+
+nav>a:hover{
+    color:rgb(240, 212, 178);
+    font-size: 17px;
+}
+
+.btn1 {
+    color: #FFFFFF;
+    background-color: #00A651;
+    padding: 10px;
+    border: none;
+    border-radius: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.smit-pic {
+    margin-top: 2px;
+}
+
+.logo2 {
+    position: absolute;
+    margin-top: -570px;
+    margin-left: 430px;
+}
+
+.heading1 {
+    color: white;
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 502px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.heading2 {
+    color: #00A651;
+    position: absolute;
+    margin-top: -250px;
+    font-weight: bold;
+    margin-left: 500px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.total-sutdents {
+
+    background: linear-gradient(90deg, #022c22 0%, #064E3B 40%, #059669 75%, #10B981 100%);
+      padding: 55px;
+       border-radius: 15px;
+           width: 100%;
+           gap: 0px;
+           display: flex;
+           flex-direction: row;
+}
+.btn2 {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -110px;
+    font-weight: bold;
+    background: #00A651;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 16px;
+}
+
+.btn3 {
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 615px;
+    font-weight: bold;
+    background: #FFFFFF;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 16px;
+}
+
+.arrow {
+    display: inline-block;
+    font-size: 18px;
+    animation: upDown 1s infinite;
+}
+@keyframes upDown {
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.heading02 {
+    font-family: "Montserrat", sans-serif;
+    color: #00A651;
+    font-weight: 700;
+}
+
+.heading01 {
+    font-family: "Montserrat", sans-serif;
+    color: #006838;
+    font-weight: 700;
+}
+
+.card {
+    border-top: 5px solid #00A651;
+    width: 210px;
+    padding: 25px;
+    border-radius: 15px;
+    background: #f5f5f5f5;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.headings02 {
+    color: #006838;
+}
+
+.para1 {
+    color: #555555;
+}
+
+.hero5 {
+    margin-top: 54px;
+}
+
+.hero6 {
+    margin-top: 54px;
+}
+
+.total-s {
+    /* font-family: "Montserrat", sans-serif;
+    /* color: black !important; */
+    font-size: 40px;
+     text-align: center;
+    font-weight: 900;
+     width: auto;
+    display: inline-block;
+    flex: 1;
+}
+.for {
+color: #0A1F4D;
+}
+
+.btn01 {
+    background: #00A651;
+    padding: 10px;
+    border: none;
+    border-radius: 14px;
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.red {
+    color: rgb(243, 23, 23);
+}
+
+i {
+    color: #0c2863;
+}
+
+.fa-regular {
+    position: absolute;
+    margin-left: -350px;
+    margin-top: 5px ;
+}
+
+input {
+    position: relative;
+    width: 300px;
+    padding-left: 45px !important;
+    padding: 14px;
+    border-radius: 20px;
+    margin-top: -7px;
+
+}
+
+.inputs { 
+    display: flex;
+    flex-direction: column;
+    margin-right: 17px;
+}
+.input1 {
+    display: flex;
+}
+.input2 {
+    display: flex;
+}
+.input3 {
+    display: flex;
+}
+.input4 {
+    display: flex;
+}
+.btn011 {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #0c2863;
+    color: white;
+    width: 800px;
+    font-weight: bold;
+    border: none;
+}
+.btn011:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.form {
+    margin-left: 25px;
+}
+
+.terms {
+    margin-top: 44px;
+    margin-left: 25px;
+}
+.checkbox {
+    margin: 0;
+}
+
+.terms {
+    width: 100%;
+    line-height: 1.7;
+}
+
+.terms h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.terms ol {
+    padding-left: 25px;
+}
+
+.terms li {
+    margin-bottom: 12px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.check input {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.check label {
+    font-size: 14px;
+    cursor: pointer;
+}
+.terms1 {
+    background: #eeeffa;
+    padding: 11px;
+    border-radius: 13px;
+    width: 900px;
+
+    b{
+     color: #040d85;
+      font-family: "Montserrat", sans-serif;
+}
+li {
+     font-family: "Montserrat", sans-serif;
+}
+/* label { */
+     font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    background: linear-gradient(90deg, #01110D 0%, #022C22 50%, #064E3B 100%);
+    margin-top: 44px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.logoarea {
+    display: grid;
+    padding-top: 15px;
+    margin-left: 17px;;
+}
+.logob {
+    margin-top: 13px;
+    transition: 0.3s;
+}
+.logob:hover {
+    transform: translateY(-5px);
+}
+.about-one {
+    margin-left: 180px;
+}
+.heading {
+     color: white;
+     font-family: "Montserrat", sans-serif;
+     margin-bottom: 12px;
+}
+.para2:hover {
+    text-decoration: underline;
+    color: white;
+}
+.para2 {
+    color: rgb(153, 153, 177);
+}
+
+
+
+
+
+
+
+/* ===================== RESPONSIVE CODE ===================== */
+
+/* Sab screens ke liye safe fixes (desktop par koi farq nahi) */
+img { max-width: 100%; }
+
+/* ---------- TABLET + MOBILE (1024px aur us se chhote) ---------- */
+@media (max-width: 1024px) {
+
+    body { overflow-x: hidden; }
+
+    /* HERO: absolute/negative margins hata kar flex layout */
+    .smit-pic {
+        height: 520px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .hero2 {
+        position: relative;
+        margin-top: -520px;
+        height: 520px;
+        box-sizing: border-box;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .hero2 .logo2,
+    .hero2 .heading1,
+    .hero2 .heading2,
+    .hero2 .btn2,
+    .hero2 .btn3 {
+        position: static;
+        margin: 0;
+    }
+
+    .hero2 .logo2,
+    .hero2 .heading1,
+    .hero2 .heading2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero2 .logo2 { width: 110px; }
+    .hero2 .heading2 { font-size: 18px; }
+    .hero2 .heading1 { font-size: 32px; }
+
+    /* CARDS: 2 column */
+    .card {
+        box-sizing: border-box;
+        width: calc(50% - 15px);
+        margin-right: 0;
+        margin-bottom: 15px;
+        vertical-align: top;
+    }
+
+    /* FORM */
+    .form { margin-left: 10px; margin-right: 10px; }
+
+    .input1, .input2, .input3, .input4 { gap: 12px; }
+
+    .inputs { flex: 1; margin-right: 0; }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px !important;
+    }
+
+    .btn011 { width: 100%; }
+
+    /* TERMS */
+    .terms { margin-left: 10px; margin-right: 10px; box-sizing: border-box; width: auto; }
+    .terms1 { width: 100%; box-sizing: border-box; }
+
+    /* TOTAL STUDENTS */
+    .total-s { font-size: 60px; padding: 35px; }
+
+    /* FOOTER: wrap hoga */
+    footer { flex-wrap: wrap; gap: 20px; }
+    .logoarea { margin-left: 10px; }
+    .about-one { margin-left: 40px; }
+}
+
+/* ---------- MOBILE (600px aur us se chhote) ---------- */
+@media (max-width: 600px) {
+
+    /* NAVBAR */
+    .navber {
+        padding: 8px;
+        justify-content: space-between;
+        gap: 6px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    .navber .logo { width: 60px; }
+    nav > a { font-size: 12px; margin-right: 4px; }
+    nav > a:hover { font-size: 12px; }
+    .btn1 { padding: 8px; font-size: 11px; }
+
+    /* HERO */
+    .smit-pic { height: 480px; }
+    .hero2 { margin-top: -480px; height: 480px; }
+    .hero2 .logo2 { width: 233px; }
+    .hero2 .heading2 { font-size: 14px; }
+    .hero2 .heading1 { font-size: 24px; }
+
+    /* CARDS: 1 column */
+    .card {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .hero5, .hero6 { margin-top: 30px; }
+
+    /* FORM: ek ke neeche ek */
+    .input1, .input2, .input3, .input4 {
+        flex-direction: column;
+        gap: 0;
+    }
+    .inputs { margin-bottom: 8px; }
+
+    /* TOTAL STUDENTS */
+    .total-s { font-size: 36px; padding: 25px 15px; width: 100%;}
+
+    /* TERMS */
+    .terms h2 { font-size: 20px; }
+    .terms1 { padding: 8px; }
+    .terms ol { padding-left: 20px; }
+    .check { align-items: flex-start; }
+    .check label { font-size: 13px; }
+
+    /* FOOTER: ek column */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px 10px;
+    }
+    .logoarea {
+        margin-left: 0;
+        justify-items: center;
+    }
+    .about-one { margin-left: 0; }
+}
+
+
+    </style>
+</head>
+<body>
+    
+     <div class="navber">
+     <img src="./titan_logo-removebg-preview.png" class="logo" width="100px">
+     <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+     </nav>
+     
+     <button class="btn1" onclick="window.open('https://www.saylaniit.com/enroll','_blank')">Enroll Now <span class="arrow">↗</span></button>
+     </div>
+
+     <div class="hero">
+     <img src="./smit pic.jpg" alt="" width="100%" height="640px" class="smit-pic">
+
+     </div>
+
+          <div class="hero2">
+          <img src="./titan_logo-removebg-preview.png" alt="" class="logo2">
+          <h2 class="heading2">SAYLANI INTERNATIONAL TRUST</h2>
+          <h1 class="heading1">Learn IT Skills,<br>Build Your Future</h1>
+          <button class="btn2">Apply Now</button>
+          <button class="btn3">Our Courses ⟶</button>
+          </div>
+
+         <div class="hero3" data-aos="fade-up">
+            <h2 class="heading02">WHY CHOOSE US</h2>
+            <h1 class="heading01">TITAN Why Best</h1>
+          </div>
+
+          <div class="card">
+          <i class="fa-solid fa-money-check-dollar"></i>
+          <h2 class="headings02">100% Free Courses</h2>
+          <p class="para1">Koi fees nhi, poori traning free hai.</p>
+          </div>
+
+         <div class="hero5" data-aos="fade-up">
+          <div class="hero4">
+          <h2 class="heading02">Our Popular Courses</h2>
+          <div class="card">
+          <i class="fa-solid fa-code-commit"></i>
+          <h2 class="headings02">Web development</h2>
+          <p class="para1">Learn HTML, CSS, JAVASCRIPT</p>
+          </div>
+
+          <div class="card" data-aos="zoom-in">
+          <i class="fa-solid fa-pen-nib"></i>
+          <h2 class="headings02">Graphic Design</h2>
+          <p class="para1">Learn Photoshop, Illustrator With Understanding</p>
+          </div>
+
+          <div class="card">
+          <i class="fa-brands fa-sistrix"></i>
+          <h2 class="headings02">Digital Marketing</h2>
+          <p class="para1">Learn Digital Marketing With Practical traning</p>
+          </div>
+
+          <div class="card">
+          <i class="fa-brands fa-steam-symbol"></i>
+          <h2 class="headings02">Roblox Studio</h2>
+          <p class="para1">Learn Game Making, Lue Coding & Your Own Game</p>
+
+          </div>
+          </div>
+          </div>
+
+          <div class="hero6" data-aos="fade-up">
+          <h2 class="heading02">Our Teachers</h2>
+          <div class="card">
+          <h3><span style="color: #FFD700;">★★★★</span> &nbsp;&nbsp;01. Sir ALiyan</h3>
+          </div>
+          <div class="card">
+          <h3><span style="color: #FFD700;">★★★★</span> &nbsp;&nbsp;02. Sir irfan</h3>
+          </div>
+          </div>
+
+<div class="total-students">
+
+    <h1 class="total-s">
+        <span class="for" data-target="10000">0</span>+
+        <br>Students
+    </h1>
+
+    <h1 class="total-s">
+        <span class="for" data-target="500">0</span>+
+        <br>Employer
+    </h1>
+
+    <h1 class="total-s">
+        <span class="for" data-target="200">0</span>+
+        <br>Teachers
+    </h1>
+
+</div>
+
+          <div class="form" data-aos="fade-right">
+          <h2 class="heading02"><i class="fa-solid fa-user"></i>&nbsp;Addmisson Form</h2>
+          <div class="input1">
+          <div class="inputs">
+            <label><h5>Full Name <span class="red">*</span></h5></label>
+          <input type="text" placeholder="Enter Your Full Name">
+          </div>
+
+          <div class="inputs">
+          <label><h5>Father Name<span class="red">*</span></h5></label>
+          <input type="text" placeholder="Enter Your Father Name">
+          </div>
+          </div>
+
+          <div class="input2">
+          <div class="inputs">
+          <label><h5>Date of Birth<span class="red">*</span></h5></label>
+          <input type="date" name="mm/dd/yyyy">
+          </div>
+
+          <div class="inputs">
+          <label><h5>Email<span class="red">*</span></h5></label>
+          <input type="email" placeholder="Your.email@example.com">
+          </div>
+          </div>
+
+          <div class="input3">
+          <div class="inputs">
+          <label><h5>Phone<span class="red">*</span></h5></label>
+          <input type="tel" placeholder="Enter Phone Number">
+          </div>
+
+          <div class="inputs">
+          <label><h5>Father's Phone<span class="red">*</span></h5></label>
+          <input type="tel" placeholder="Enter Phone Number">
+          </div>
+          </div>
+
+          <div class="input4">
+          <div class="inputs">
+          <label><h5>ID Number<span class="red">*</span></h5></label>
+          <input type="number" placeholder="Enter ID Number">
+          </div>
+
+          <div class="inputs">
+          <label><h5>Father's ID Number<span class="red">*</span></h5></label>
+          <input type="number" placeholder="Enter ID Number">
+          </div>
+          </div>
+          <br>
+          <button class="btn011">Submit Registration</button>
+          </div>
+
+          <div class="terms" data-aos="fade-up">
+          <h2 class="heading02"><i class="fa-solid fa-life-ring"></i>&nbsp;Terms and Conditions</h2>
+
+         <div class="terms1">
+
+    <ol>
+        <li>
+            <b>Accurate Information:</b>
+            All users must provide correct and complete information during registration.
+        </li>
+
+        <li>
+            <b>Personal Details:</b>
+            Users are responsible for keeping their personal information updated.
+        </li>
+
+        <li>
+            <b>Account Security:</b>
+            Keep your account password private and do not share it with anyone.
+        </li>
+
+        <li>
+            <b>Website Usage:</b>
+            Users must use this website for legal and appropriate purposes only.
+        </li>
+
+        <li>
+            <b>Privacy Policy:</b>
+            We respect your privacy and handle personal information responsibly.
+        </li>
+
+        <li>
+            <b>User Responsibility:</b>
+            Users are responsible for all activities performed through their accounts.
+        </li>
+
+        <li>
+            <b>Prohibited Activities:</b>
+            Users must not misuse the website or attempt unauthorized access.
+        </li>
+
+        <li>
+            <b>Data Protection:</b>
+            We take reasonable steps to protect user information.
+        </li>
+
+        <li>
+            <b>Account Suspension:</b>
+            Accounts may be restricted if users violate these terms.
+        </li>
+
+        <li>
+            <b>Website Changes:</b>
+            We reserve the right to update website features and policies.
+        </li>
+
+        <li>
+            <b>Third-Party Links:</b>
+            We are not responsible for the content of external websites.
+        </li>
+
+        <li>
+            <b>Acceptance:</b>
+            By checking the agreement box, you confirm that you have read and accepted these Terms & Conditions.
+        </li>
+
+        <li>
+            <b>Contact Information:</b>
+            If you have any questions, please contact our support team.
+        </li>
+    </ol>
+
+    <div class="check">
+        <input type="checkbox" id="agree" required>
+
+        <label for="agree">
+            I have read and agree to all Terms & Conditions.
+        </label>
+    </div>
+
+</div>
+          </div>
+
+          <footer data-aos="fade-up">
+            <div class="logoarea">
+            <img src="./titan_logo-removebg-preview.png" alt="" class="logoa" width="130px">
+            <img src="./play store logo.png" alt="" class="logob" width="120px">
+            <img src="./apple logo.svg" alt="" class="logob" width="120px">
+            </div>
+
+            <div class="about-one">
+            <h3 class="heading">Quick Links</h3>
+            <div class="para1">
+            <p class="para2">Home</p>
+            <p class="para2">Chat Us</p>
+            <p class="para2">About Us</p>
+            <p class="para2">Enroll Now</p>
+            <p class="para2">Download ID Card</p>
+            </div>
+            </div>
+
+            
+            <div class="about-one">
+            <h3 class="heading">Our Courses</h3>
+            <div class="para1">
+            <p class="para2">Web Development</p>
+            <p class="para2">Agentic AI</p>
+            <p class="para2">AI & Data Science</p>
+            <p class="para2">Graphic Design</p>
+            <p class="para2">3D Animation</p>
+            </div>
+            </div>
+
+            <div class="about-one">
+            <h3 class="heading">Resources</h3>
+            <div class="para1">
+            <p class="para2">Courses</p>
+            <p class="para2">Campuses</p>
+            <p class="para2">Contact Us</p>
+            <p class="para2">Alumni Network</p>
+            <p class="para2">Privacy Policy</p>
+            </div>
+            </div>
+          </footer>
+
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration: 1000,
+    once: false,
+    offset: 100
+});
+
+const counters = document.querySelectorAll('.for');
+
+const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+        if (entry.isIntersecting) {
+
+            let counter = entry.target;
+            let target = Number(counter.dataset.target);
+
+            let duration = 2000;
+            let startTime = null;
+
+            function counting(timestamp) {
+
+                if (!startTime) startTime = timestamp;
+
+                let progress = Math.min(
+                    (timestamp - startTime) / duration, 1
+                );
+
+                let number = Math.floor(progress * target);
+
+                counter.innerText = number.toLocaleString();
+
+                if (progress < 1) {
+                    requestAnimationFrame(counting);
+                } else {
+                    counter.innerText = target.toLocaleString();
+                }
+            }
+
+            requestAnimationFrame(counting);
+
+            observer.unobserve(counter);
+        }
+
+    });
+
+}, { threshold: 0.5 });
+
+counters.forEach(counter => {
+    observer.observe(counter);
+});
+
+</script></script>
+</body>
+</html>
